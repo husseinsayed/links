@@ -1,0 +1,23 @@
+{
+    "name": "husseinsayed/links",
+    "description": "Links statistics for laravel",
+    "require": {
+        "php": "*",
+        "laravel/framework": "*",
+        "husseinsayed/charts": "*",
+        "husseinsayed/identify": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hussein Sayed",
+            "email": "eng.husseinsayed@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "HusseinSayed\\Links\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
