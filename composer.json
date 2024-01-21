@@ -5,7 +5,7 @@
         "php": "*",
         "laravel/framework": "*",
         "consoletvs/charts": "*",
-        "consoletvs/identify": "*"
+        "husseinsayed/identify": "*"
     },
     "license": "MIT",
     "authors": [
