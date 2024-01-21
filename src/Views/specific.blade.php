@@ -49,7 +49,7 @@
                                     }
                                 ?>
                                 {!!
-                                    ConsoleTVs\Charts\Charts::database($views, 'donut', 'morris')
+                                    HusseinSayed\Charts\Charts::database($views, 'donut', 'morris')
                                         ->setTitle($title)->setDimensions(0, 300)->setResponsive(false)
                                         ->groupBy($grouper)->render();
                                 !!}
@@ -71,7 +71,7 @@
                                     }
                                 ?>
                                 {!!
-                                    ConsoleTVs\Charts\Charts::database($views, 'donut', 'morris')
+                                    HusseinSayed\Charts\Charts::database($views, 'donut', 'morris')
                                         ->setTitle($title)->setDimensions(0, 300)->setResponsive(false)
                                         ->groupBy($grouper)->render();
                                 !!}
@@ -93,7 +93,7 @@
                                     }
                                 ?>
                                 {!!
-                                    ConsoleTVs\Charts\Charts::database($views, 'donut', 'morris')
+                                    HusseinSayed\Charts\Charts::database($views, 'donut', 'morris')
                                         ->setTitle($title)->setDimensions(0, 300)->setResponsive(false)
                                         ->groupBy($grouper)->render();
                                 !!}
