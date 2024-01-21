@@ -4,8 +4,8 @@
     "require": {
         "php": "*",
         "laravel/framework": "*",
-        "husseinsayed/charts": "*",
-        "husseinsayed/identify": "*"
+        "consoletvs/charts": "*",
+        "consoletvs/identify": "*"
     },
     "license": "MIT",
     "authors": [
