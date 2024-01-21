@@ -8,7 +8,7 @@ Route::group(['middleware' => 'web', 'as' => 'links::', 'prefix' => config('link
         Route::get('/', 'LinksController@links')->name('links');
         Route::get('/logout', 'LinksController@logout')->name('logout');
         Route::get('/{slug}/stats', 'LinksController@link')->name('link');
-        Route::get('/{slug}/stats/{specific}/{specific_value}', 'LinksController@specific')->name('specific');
+        Route::get('/{slug}/stats/{specific}/{specific_value?}', 'LinksController@specific')->name('specific');
     });
 
     Route::get('/{slug}', 'LinksController@redirect')->name('redirect');

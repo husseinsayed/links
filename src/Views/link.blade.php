@@ -71,51 +71,6 @@
             </div>
 
             <br>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-4">
-                    <div class="card">
-                        <div class="card-block">
-                            <center>
-                                {!!
-                                    HusseinSayed\Charts\Charts::database($link->views, 'donut', 'morris')
-                                        ->setTitle($t = 'Used browsers')->setDimensions(0, 300)->setResponsive(false)
-                                        ->groupBy('browser')->render();
-                                !!}
-                            </center>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="card">
-                        <div class="card-block">
-                            <center>
-                                {!!
-                                    HusseinSayed\Charts\Charts::database($link->views, 'donut', 'morris')
-                                        ->setTitle($t = 'Used Operating Systems')->setDimensions(0, 300)->setResponsive(false)
-                                        ->groupBy('os')->render();
-                                !!}
-                            </center>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="card">
-                        <div class="card-block">
-                            <center>
-                                {!!
-                                    HusseinSayed\Charts\Charts::database($link->views, 'donut', 'morris')
-                                        ->setTitle($t = 'Used Languages')->setDimensions(0, 300)->setResponsive(false)
-                                        ->groupBy('language')->render();
-                                !!}
-                            </center>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <div class="card">
@@ -186,33 +141,6 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <div class="card">
-                        <div class="card-block">
-                            {!!
-                                HusseinSayed\Charts\Charts::database($link->views, 'line', 'morris')
-                                    ->setTitle($t = 'Views')->setDimensions(0, 300)->setResponsive(false)
-                                    ->setElementLabel($t)->setColors(['#0275d8'])->lastByDay(7, true)->render();
-                            !!}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="card">
-                        <div class="card-block">
-                            {!!
-                                HusseinSayed\Charts\Charts::database($link->uniqueViews(), 'line', 'morris')
-                                    ->setTitle($t = 'Unique Views')->setDimensions(0, 300)->setResponsive(false)
-                                    ->setElementLabel($t)->setColors(['#0275d8'])->lastByDay(7, true)->render();
-                            !!}
                         </div>
                     </div>
                 </div>
