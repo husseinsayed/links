@@ -54,7 +54,7 @@
                     <div class="card">
                         <div class="card-block">
                             {!!
-                                HusseinSayed\Charts\Charts::database($views, 'line', 'morris')
+                                ConsoleTVs\Charts\Charts::database($views, 'line', 'morris')
                                     ->setTitle($t = 'Total Views')->setDimensions(0, 300)->setResponsive(false)
                                     ->setElementLabel($t)->setColors(['#0275d8'])->lastByDay(7, true)->render();
                             !!}

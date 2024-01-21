@@ -3,7 +3,7 @@
 namespace HusseinSayed\Links;
 
 use Illuminate\Support\ServiceProvider;
-use HusseinSayed\Charts\ChartsServiceProvider;
+use ConsoleTVs\Charts\ChartsServiceProvider;
 use HusseinSayed\Identify\IdentifyServiceProvider;
 
 class LinksServiceProvider extends ServiceProvider
